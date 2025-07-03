@@ -10,14 +10,6 @@
 | **XR Interaction Toolkit**   | `3.0.8`       |
 | **XR Hands**                 | `1.5.1`       |
 | **OpenXR Plugin**            | `1.1.4.3`     |
-| **Unity OpenXR Meta**        | `2.1.1`       |
-| **AR Foundation**            | `6.0.6`       |
-| **Google ARCore XR Plugin**  | `6.0.6`       |
-| **Apple ARKit XR Plugin**    | `6.0.6`       |
-| **Apple visionOS XR Plugin** | `2.2.0`       |
-| **Magic Leap XR Plugin**     | `7.0.0`       |
-| **Oculus XR Plugin**         | `4.5.1`       |
-| **XR Plugin Management**     | `4.5.1`       |
 
 
 <br>
