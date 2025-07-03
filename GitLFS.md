@@ -5,15 +5,14 @@ GitHub에서는 **100MB**가 넘는 파일은 푸시할 수 없습니다.
 
 ---
 
-## ✅ 1. Git LFS 설치
-
-* 공식 홈페이지: [https://git-lfs.github.com](https://git-lfs.github.com)
+## ✅ 1. Git LFS 설치(mac)
+* 방법(1) 
     * Homebrew: `brew install git-lfs`
-* 설치 완료 후, 터미널에서 아래 명령어 입력:
-
-```bash
-git lfs install
-```
+* 방법(2)
+    * https://git-lfs.com/ 에서 다운로드 파일 다운
+    * terminal 열어서 `cd download/git-lfs-*/` 이동
+    * `sudo ./install.sh` 로 설치
+* 설치 완료 후, `git lfs version` 설치 확인
 
 ---
 
