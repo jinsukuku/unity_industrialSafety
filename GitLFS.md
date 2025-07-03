@@ -12,23 +12,22 @@ GitHub에서는 **100MB**가 넘는 파일은 푸시할 수 없습니다.
     * https://git-lfs.com/ 에서 다운로드 파일 다운
     * terminal 열어서 `cd download/git-lfs-*/` 이동
     * `sudo ./install.sh` 로 설치
-* 설치 완료 후, `git lfs version` 설치 확인
-
+* 설치 완료 후
+    * `git lfs version` 설치 확인
+    * `git lfs install` 한 번 해서 모든 Git 저장소에서 LFS가 자동으로 적용하기
 ---
 
 ## ✅ 2. 추적할 파일 유형 등록
 
 매우 대형의 `.mp4` 파일을 Git LFS로 관리하려면
-
 ```bash
 git lfs track "*.mp4"
 ```
-
 * 이 명령어는 `.gitattributes` 파일을 생성하거나 수정합니다.
 
 ---
 
-## ✅ 3. Git에 파일 추가 및 커미트
+## ✅ 3. Git에 파일 추가 및 커밋 방법
 
 ```bash
 git add .gitattributes
