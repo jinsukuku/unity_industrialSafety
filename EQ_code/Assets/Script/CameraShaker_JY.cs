@@ -3,38 +3,45 @@ using UnityEngine.InputSystem.Utilities;
 
 public class CameraShaker_JY : MonoBehaviour
 {
-    public float shakeDuration = 20f;
-    public float shakeMagnitue = 20f;
+    public float shakeDuration = 10f;
+    public float shakeAngle = 10f;
 
-    private Vector3 initPos;
+    private Quaternion initRot;
     private float remainShakeTime;
 
     private void Start()
     {
-        initPos = transform.localPosition;
+        initRot = transform.localRotation;
     }
 
     private void Update()
     {
         if (remainShakeTime > 0)
         {
-            transform.localPosition = initPos + Random.insideUnitSphere * shakeMagnitue;
+            Quaternion randomRot = Quaternion.Euler(
+                Random.Range(-shakeAngle, shakeAngle),
+                Random.Range(-shakeAngle, shakeAngle),
+                0f
+            );
+
+            transform.localRotation = initRot * randomRot;
+
             remainShakeTime -= Time.deltaTime;
 
             if (remainShakeTime <= 0f)
             {
-                transform.localPosition = initPos;
+                transform.localRotation = initRot;
             }
         }
     }
 
     public void TriggerShake(float duration, float magnitude)
     {
-        duration = -1f;
-        magnitude = -1f;
+        // duration = -1f;
+        // magnitude = -1f;
 
         if (duration > 0) shakeDuration = duration;
-        if (magnitude > 0) shakeMagnitue = magnitude;
+        if (magnitude > 0) shakeAngle = magnitude;
 
         remainShakeTime = shakeDuration;
     }
