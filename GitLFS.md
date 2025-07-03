@@ -9,7 +9,7 @@ GitHub에서는 **100MB**가 넘는 파일은 푸시할 수 없습니다.
 * 방법(1) 
     * Homebrew: `brew install git-lfs`
 * 방법(2)
-    * https://git-lfs.com/ 에서 다운로드 파일 다운
+    * https://git-lfs.com/ 에서 설치 파일 다운
     * terminal 열어서 `cd download/git-lfs-*/` 이동
     * `sudo ./install.sh` 로 설치
 * 설치 완료 후
