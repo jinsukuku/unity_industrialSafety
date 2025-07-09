@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\safe\\unity_industrialSafety\\EQ_code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14FDB247-585E-EDEB-ED75-7341BDB4AB4E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\safe\\unity_industrialsafety\\eq_code\\assets\\scripts\\ch2\\choicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FDB247-585E-EDEB-ED75-7341BDB4AB4E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ch2\\choicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\user\\desktop\\safe\\unity_industrialsafety\\eq_code\\assets\\scripts\\ch2\\choicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ch2\\choicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FDB247-585E-EDEB-ED75-7341BDB4AB4E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\safe\\unity_industrialsafety\\eq_code\\assets\\script\\choicemanagersy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14FDB247-585E-EDEB-ED75-7341BDB4AB4E}|Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\safe\\unity_industrialSafety\\EQ_code\\assets\\script\\choicemanagersy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14FDB247-585E-EDEB-ED75-7341BDB4AB4E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\choicemanagersy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Script\\ChoiceManagerSY.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T12:41:47.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T12:41:47.728Z"
             },
             {
               "$type": "Document",
