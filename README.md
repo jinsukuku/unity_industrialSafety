@@ -18,7 +18,7 @@
 | **Unity Version**            | `6000.0.46f1` |
 | **XR Interaction Toolkit**   | `3.0.8`       |
 | **XR Hands**                 | `1.5.1`       |
-| **OpenXR Plugin**            | `1.1.4.3`     |
+| **OpenXR Plugin**            | `1.14.3`     |
 
 <br>
 
