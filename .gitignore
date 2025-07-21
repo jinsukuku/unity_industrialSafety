@@ -81,3 +81,6 @@ sysinfo.txt
 # ========== Git Ignore Exceptions (if needed) ==========
 !Assets/
 !ProjectSettings/
+
+# ========== Custom Asset Folders ==========
+Reach - Complete Sci-Fi UI/
